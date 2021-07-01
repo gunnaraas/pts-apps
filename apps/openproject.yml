@@ -11,7 +11,7 @@
         pgrole: 'projects'
         intport: '8080'
         extport: '1471'
-        image: 'openproject/community'
+        image: 'openproject/community:latest'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
